@@ -1,0 +1,131 @@
+{
+  "folderId": "IVLBiilznoLgbjNgbIWGi",
+  "appId": "VQuvLppkgOiOheERfIEZv",
+  "id": "bLWcpbAwyiLfqHCjpZVEt",
+  "name": "Hello World",
+  "type": "ORCHESTRATION",
+  "itemType": "workflow",
+  "version": "0.0.1",
+  "steps": [
+    {
+      "id": "ARwBiwkNMQqeBNNzGeykN",
+      "stepName": "End",
+      "stepType": "END",
+      "icon": "",
+      "indicator": "",
+      "description": "",
+      "deletable": true,
+      "config": {
+        "activityName": "End",
+        "activityGroup": "Common",
+        "activityType": "END",
+        "name": "End",
+        "description": "",
+        "config.name": "End",
+        "sourceSchemas": [
+          "OCVXhzCQftnjmywQIsCQT"
+        ],
+        "targetSchema": "WBFhhokDlnbAJjCJptXIE",
+        "showHttpFormSelectionPanel": false
+      }
+    },
+    {
+      "id": "OCVXhzCQftnjmywQIsCQT",
+      "stepName": "RESTService",
+      "stepType": "EVENT_SOURCE",
+      "icon": "",
+      "indicator": "",
+      "description": "",
+      "deletable": true,
+      "config": {
+        "activityName": "RESTService",
+        "activityGroup": "HTTP",
+        "activityType": "EVENT_SOURCE",
+        "name": "RESTService",
+        "description": "",
+        "path": "/test",
+        "method": [
+          "GET"
+        ],
+        "allowedMediaTypes": [
+          "application/json"
+        ],
+        "headers": [],
+        "queryParams": [],
+        "pathParams": [],
+        "output": "",
+        "activityStatus": "APPROVED",
+        "showHttpFormSelectionPanel": false,
+        "config.name": "RESTService",
+        "sourceSchemas": []
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "id": "initialEdge",
+      "from": "OCVXhzCQftnjmywQIsCQT",
+      "to": "ARwBiwkNMQqeBNNzGeykN",
+      "handleMap": {
+        "source": "OCVXhzCQftnjmywQIsCQT_1",
+        "target": "ARwBiwkNMQqeBNNzGeykN_1"
+      },
+      "name": "",
+      "description": "",
+      "type": "DEFAULT",
+      "lineType": "step",
+      "lineColor": "#8c8c8c"
+    }
+  ],
+  "diagram": {
+    "ARwBiwkNMQqeBNNzGeykN": {
+      "x": 512,
+      "y": 48,
+      "handles": [
+        {
+          "type": "source",
+          "position": "left",
+          "id": "ARwBiwkNMQqeBNNzGeykN_1"
+        }
+      ],
+      "sourcePosition": null,
+      "targetPosition": "left"
+    },
+    "OCVXhzCQftnjmywQIsCQT": {
+      "x": 16,
+      "y": 48,
+      "handles": [
+        {
+          "type": "source",
+          "position": "right",
+          "id": "OCVXhzCQftnjmywQIsCQT_1"
+        }
+      ],
+      "sourcePosition": "right",
+      "targetPosition": null
+    }
+  },
+  "notes": [],
+  "mappings": {
+    "ARwBiwkNMQqeBNNzGeykN": {
+      "metaInfo": {
+        "id": "ARwBiwkNMQqeBNNzGeykN",
+        "versionInfo": {
+          "version": "1.0.0"
+        },
+        "name": "End",
+        "description": ""
+      },
+      "mappings": {
+        "End": {
+          "message": "'Hello World'"
+        }
+      },
+      "attributes": {}
+    }
+  },
+  "config": {
+    "name": "New Workflow"
+  },
+  "workflowName": "Hello World"
+}

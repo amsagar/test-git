@@ -1,0 +1,27 @@
+{
+  "id": "WBFhhokDlnbAJjCJptXIE",
+  "name": "NewSchema",
+  "content": {
+    "type": "json-schema",
+    "destination": "source",
+    "content": {
+      "$schema": "https://json-schema.org/draft-07/schema",
+      "type": "object",
+      "properties": {
+        "message": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "message"
+      ],
+      "title": "NewSchema"
+    },
+    "name": "NewSchema",
+    "schemaSource": "file"
+  },
+  "appId": "VQuvLppkgOiOheERfIEZv",
+  "folderId": "CRNuQBYaGBgVgvFZQkDsW",
+  "itemType": "appSchemas",
+  "gitEnabled": true
+}
