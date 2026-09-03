@@ -4,7 +4,7 @@
   "workflowName": "Hello World 1",
   "itemType": "workflow",
   "appId": "JzyZUJXyQixBSjXCTmlLl",
-  "folderId": "urjjobhjeAhDAYffyXWdV",
+  "folderId": "dJRwCZeGHOHFgNBIBHWIF",
   "type": "ORCHESTRATION",
   "version": "0.0.1",
   "steps": [
@@ -26,7 +26,8 @@
           "OCVXhzCQftnjmywQIsCQT"
         ],
         "targetSchema": "WBFhhokDlnbAJjCJptXIE",
-        "showHttpFormSelectionPanel": false
+        "showHttpFormSelectionPanel": false,
+        "config.name": "End"
       },
       "activityCluster": []
     },
@@ -119,7 +120,7 @@
       },
       "mappings": {
         "End": {
-          "message": "'Hello World'"
+          "message": "'Hello Worldssss'"
         }
       },
       "attributes": {}
