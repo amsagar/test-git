@@ -13,9 +13,6 @@
       "properties": {
         "message": {
           "type": "string"
-        },
-        "property": {
-          "type": "string"
         }
       },
       "required": [
