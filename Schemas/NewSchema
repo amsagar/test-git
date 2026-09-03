@@ -4,21 +4,25 @@
   "content": {
     "type": "json-schema",
     "destination": "source",
+    "schemaSource": "file",
+    "name": "NewSchema",
     "content": {
       "$schema": "https://json-schema.org/draft-07/schema",
+      "title": "NewSchema",
       "type": "object",
       "properties": {
         "message": {
           "type": "string"
+        },
+        "property": {
+          "type": "string"
         }
       },
       "required": [
-        "message"
-      ],
-      "title": "NewSchema"
-    },
-    "name": "NewSchema",
-    "schemaSource": "file"
+        "message",
+        "property"
+      ]
+    }
   },
   "appId": "VQuvLppkgOiOheERfIEZv",
   "folderId": "CRNuQBYaGBgVgvFZQkDsW",
