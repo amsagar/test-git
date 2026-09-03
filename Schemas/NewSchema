@@ -13,6 +13,9 @@
       "properties": {
         "message": {
           "type": "string"
+        },
+        "message1": {
+          "type": "string"
         }
       },
       "required": [
