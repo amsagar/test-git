@@ -1,5 +1,5 @@
 {
-  "folderId": "STEphXCKAVLixjFZEKlqD",
+  "folderId": "VjFAykkUizLGRxZKZasVZ",
   "appId": "VQuvLppkgOiOheERfIEZv",
   "id": "bLWcpbAwyiLfqHCjpZVEt",
   "name": "Hello World",
@@ -76,7 +76,7 @@
         "activityType": "EVENT_SOURCE",
         "name": "RESTService",
         "description": "",
-        "path": "/test-git-conflicts-211ssdsdsdsd",
+        "path": "/end",
         "method": [
           "GET"
         ],
