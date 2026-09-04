@@ -16,6 +16,9 @@
         },
         "message1": {
           "type": "string"
+        },
+        "property": {
+          "type": "string"
         }
       },
       "required": [

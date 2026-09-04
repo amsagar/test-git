@@ -1,11 +1,44 @@
 {
-  "folderId": "ngaKXeYSUTQsFkGZVAgyU",
+  "folderId": "STEphXCKAVLixjFZEKlqD",
   "appId": "VQuvLppkgOiOheERfIEZv",
   "id": "bLWcpbAwyiLfqHCjpZVEt",
   "name": "Hello World",
   "type": "ORCHESTRATION",
   "itemType": "workflow",
   "version": "0.0.1",
+  "diagram": {
+    "ARwBiwkNMQqeBNNzGeykN": {
+      "x": 224,
+      "y": 48,
+      "handles": [
+        {
+          "type": "source",
+          "position": "left",
+          "id": "ARwBiwkNMQqeBNNzGeykN_1"
+        }
+      ],
+      "sourcePosition": null,
+      "targetPosition": "left"
+    },
+    "OCVXhzCQftnjmywQIsCQT": {
+      "x": 32,
+      "y": 48,
+      "handles": [
+        {
+          "type": "source",
+          "position": "right",
+          "id": "OCVXhzCQftnjmywQIsCQT_1"
+        }
+      ],
+      "sourcePosition": "right",
+      "targetPosition": null
+    }
+  },
+  "notes": [],
+  "config": {
+    "name": "New Workflow"
+  },
+  "workflowName": "Hello World",
   "steps": [
     {
       "id": "ARwBiwkNMQqeBNNzGeykN",
@@ -43,7 +76,7 @@
         "activityType": "EVENT_SOURCE",
         "name": "RESTService",
         "description": "",
-        "path": "/conflict",
+        "path": "/test-git-conflicts-211ssdsdsdsd",
         "method": [
           "GET"
         ],
@@ -77,35 +110,6 @@
       "lineColor": "#8c8c8c"
     }
   ],
-  "diagram": {
-    "ARwBiwkNMQqeBNNzGeykN": {
-      "x": 224,
-      "y": 48,
-      "handles": [
-        {
-          "type": "source",
-          "position": "left",
-          "id": "ARwBiwkNMQqeBNNzGeykN_1"
-        }
-      ],
-      "sourcePosition": null,
-      "targetPosition": "left"
-    },
-    "OCVXhzCQftnjmywQIsCQT": {
-      "x": 32,
-      "y": 144,
-      "handles": [
-        {
-          "type": "source",
-          "position": "right",
-          "id": "OCVXhzCQftnjmywQIsCQT_1"
-        }
-      ],
-      "sourcePosition": "right",
-      "targetPosition": null
-    }
-  },
-  "notes": [],
   "mappings": {
     "ARwBiwkNMQqeBNNzGeykN": {
       "metaInfo": {
@@ -123,9 +127,5 @@
       },
       "attributes": {}
     }
-  },
-  "config": {
-    "name": "New Workflow"
-  },
-  "workflowName": "Hello World"
+  }
 }
