@@ -11,19 +11,16 @@
       "title": "NewSchema",
       "type": "object",
       "properties": {
-        "message": {
+        "conflict": {
           "type": "string"
         },
-        "message1wesss": {
-          "type": "string"
-        },
-        "one field": {
+        "asda": {
           "type": "string"
         }
       },
       "required": [
-        "message",
-        "one field"
+        "conflict",
+        "asda"
       ]
     }
   },
