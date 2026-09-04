@@ -11,16 +11,19 @@
       "title": "NewSchema",
       "type": "object",
       "properties": {
-        "conflict": {
+        "message": {
           "type": "string"
         },
-        "asda": {
+        "message i need to check": {
+          "type": "string"
+        },
+        "one field": {
           "type": "string"
         }
       },
       "required": [
-        "conflict",
-        "asda"
+        "message",
+        "one field"
       ]
     }
   },
