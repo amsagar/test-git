@@ -4,7 +4,7 @@
   "workflowName": "Hello World 1",
   "itemType": "workflow",
   "appId": "JzyZUJXyQixBSjXCTmlLl",
-  "folderId": "dJRwCZeGHOHFgNBIBHWIF",
+  "folderId": "HbZvfHPaGmeXCblFfBzLm",
   "type": "ORCHESTRATION",
   "version": "0.0.1",
   "steps": [
@@ -45,7 +45,7 @@
         "activityType": "EVENT_SOURCE",
         "name": "RESTService",
         "description": "",
-        "path": "/test-git-conflicts-1111",
+        "path": "/test-gi",
         "method": [
           "GET"
         ],
@@ -120,7 +120,7 @@
       },
       "mappings": {
         "End": {
-          "message": "'Hello Worldssss'"
+          "message": "'Hello'"
         }
       },
       "attributes": {}
