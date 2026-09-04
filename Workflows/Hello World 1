@@ -4,7 +4,7 @@
   "workflowName": "Hello World 1",
   "itemType": "workflow",
   "appId": "JzyZUJXyQixBSjXCTmlLl",
-  "folderId": "HbZvfHPaGmeXCblFfBzLm",
+  "folderId": "XUWhbqKkSRnQUPHxbjWDj",
   "type": "ORCHESTRATION",
   "version": "0.0.1",
   "diagram": {
@@ -77,7 +77,7 @@
         "activityType": "EVENT_SOURCE",
         "name": "RESTService",
         "description": "",
-        "path": "/test-gi",
+        "path": "/test-gisss",
         "method": [
           "GET"
         ],
