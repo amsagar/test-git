@@ -14,7 +14,7 @@
         "message": {
           "type": "string"
         },
-        "message1we": {
+        "changed": {
           "type": "string"
         },
         "property": {
