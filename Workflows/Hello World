@@ -43,7 +43,7 @@
         "activityType": "EVENT_SOURCE",
         "name": "RESTService",
         "description": "",
-        "path": "/test-git-conflicts-211s",
+        "path": "/test-git-conflicts-211ssdsdsdsd",
         "method": [
           "GET"
         ],
