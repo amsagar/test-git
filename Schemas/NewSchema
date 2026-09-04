@@ -14,16 +14,16 @@
         "message": {
           "type": "string"
         },
-        "changed": {
+        "message1wesss": {
           "type": "string"
         },
-        "property": {
+        "one field": {
           "type": "string"
         }
       },
       "required": [
         "message",
-        "property"
+        "one field"
       ]
     }
   },
